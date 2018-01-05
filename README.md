@@ -1,5 +1,6 @@
 # ImagePicker
  [![Release](https://jitpack.io/v/zhuazhu/MFrame.svg)](https://jitpack.io/#zhuazhu/MFrame)
+
 Android自定义相册，完全仿微信UI，实现了拍照、图片选择（单选/多选）、 裁剪 、旋转、等功能。
 
 如果你发现有bug，或者好的建议，可以提merge request，我测试通过后会立即合并并发布新版本，确保该库处于可用的状态。
