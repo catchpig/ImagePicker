@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:background="#000"
@@ -8,33 +8,30 @@
 
     <include layout="@layout/include_top_bar"/>
 
-   <!-- <com.lzy.imagepicker.view.CropImageView
-        android:id="@+id/cv_crop_image"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>-->
 
-    <com.lzy.imagepicker.view.CropImageView
+
+    <com.zhuazhu.imagepicker.view.CropImageView
         android:id="@+id/cv_crop_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <!-- <com.lzy.imagepicker.view.crop.CropImageView2
+    <!-- <com.zhuazhu.imagepicker.view.crop.CropImageView2
          android:id="@+id/cv_crop_image"
          android:layout_width="match_parent"
          android:layout_height="match_parent"
          android:background="#000"
-         custom:backgroundColor="#FFFFFB"
-         custom:cropMode="ratio_fit_image"
-         custom:frameColor="#86C166"
-         custom:frameStrokeWeight="1dp"
-         custom:guideColor="#AA86C166"
-         custom:guideShowMode="show_on_touch"
-         custom:guideStrokeWeight="1dp"
-         custom:handleColor="#86C166"
-         custom:handleShowMode="show_always"
-         custom:handleSize="8dp"
-         custom:minFrameSize="50dp"
-         custom:overlayColor="#AA1C1C1C"
-         custom:touchPadding="8dp"/>-->
+         app:backgroundColor="#FFFFFB"
+         app:cropMode="ratio_fit_image"
+         app:frameColor="#86C166"
+         app:frameStrokeWeight="1dp"
+         app:guideColor="#AA86C166"
+         app:guideShowMode="show_on_touch"
+         app:guideStrokeWeight="1dp"
+         app:handleColor="#86C166"
+         app:handleShowMode="show_always"
+         app:handleSize="8dp"
+         app:minFrameSize="50dp"
+         app:overlayColor="#AA1C1C1C"
+         app:touchPadding="8dp"/>-->
 
 </LinearLayout>
