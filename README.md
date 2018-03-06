@@ -52,7 +52,7 @@ Android自定义相册，完全仿微信UI，实现了拍照、图片选择（�
 
 更多使用，请下载demo参看源代码
 
-1. 首先你需要继承 `com.lzy.imagepicker.loader.ImageLoader` 这个接口,实现其中的方法,比如以下代码是使用 `Picasso` 三方加载库实现的
+1. 首先你需要继承 `com.zhuazhu.imagepicker.loader.ImageLoader` 这个接口,实现其中的方法,比如以下代码是使用 `Picasso` 三方加载库实现的
 ```java
 public class PicassoImageLoader implements ImageLoader {
 
